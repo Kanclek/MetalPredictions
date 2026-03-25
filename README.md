@@ -12,6 +12,10 @@
 - **`params_path`**: Excel с параметрами плавки/разливки (как в `extraction._get_params`)
 - **`target_path`**: Excel с таргетом/листами (как в `extraction._get_target`)
 
+Обязательные параметры: 'nr', 'sr', 'mins', 'maxs', 'sr.1', 'mins.1', 'maxs.1', 'tliq', 'nm', 'Марка стали' 'Диаметр'
+
+Целевое значение: 'Силикаты недеформированные (2009)'
+
 В ноутбуке используется:
 
 - `from app.inference.pipeline import build_pipeline`
